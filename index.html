@@ -2,12 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Piskvorky</title>
+    <title>Piskvorky 10x10</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        td {
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Piškvorky 10x10</h1>
-    <div id="info">Zápis hry začíná...</div>
+    <h3 id="info">Na tahu je: X</h3>
+
+    <table id="hraciPlocha"></table>
 
     <script src="script.js"></script>
 </body>
